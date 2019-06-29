@@ -1,0 +1,365 @@
+/*css[class="btn"]*/
+
+html[data-useragent*='Chrome'] .dlg-txt-qtd {
+    width: 50%;
+}
+
+html[data-useragent*='Firefox'] .dlg-txt-qtd {
+    width: 48%;
+}
+
+html[data-useragent*='Android/2.1'] .dlg-txt-qtd {
+    width: 50%
+}
+
+.dlg-txt-qtd {
+    width: 50%;
+    margin-right: 2px;
+}
+
+.dlg-select {
+    background-color: #dee2e6;
+}
+
+.dlg-100 {
+    width: 100%;
+    /*height: 100%;*/
+    /*width: calc(100% - 3rem - 1.5rem);*/
+}
+
+.dlg-50 {
+    width: 50%;
+    /*height: 100%;*/
+    /*width: calc(100% - 3rem - 1.5rem);*/
+}
+
+.dlg-fontMin {
+    font-size: small;
+    /*height: 100%;*/
+    /*width: calc(100% - 3rem - 1.5rem);*/
+}
+
+.dlg-font8 {
+    font-size: 0.75rem;
+    /*height: 100%;*/
+    /*width: calc(100% - 3rem - 1.5rem);*/
+}
+
+.dlg-titulo {
+    margin-bottom: 0%;
+    font-weight: bold;
+    color: #2ba750;
+    cursor: pointer
+}
+
+.dlg-titulo:hover {
+    color: white;
+}
+
+html[data-useragent*='Chrome'] .dlg-cabec {
+    margin-top: 2.25rem;
+    /*background-color: green;*/
+}
+
+html[data-useragent*='Firefox'] .dlg-cabec {
+    margin-top: 4.25rem !important;
+    /*background-color: yellow;*/
+}
+
+html[data-useragent*='Safari'] .dlg-cabec {
+    margin-top: 2.25rem;
+    /*background-color: cornflowerblue;*/
+}
+
+html[data-useragent*='Android/2.1'] .dlg-cabec {
+    margin-top: 2.25rem;
+    /*background-color: gray;*/
+}
+
+html[data-useragent*='ScanPal EDA50'] .dlg-cabec {
+    margin-top: 3.5rem;
+    /*background-color: purple;*/
+}
+
+.dlg-cabec {
+    background-color: #2ba750;
+    /*alignment: bottom;*/
+    /*vertical-align: bottom;*/
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding-left: 04%;
+    z-index: 1030;
+}
+
+.dlg-div-menu {
+    height: 1.9rem;
+    background-color: #e3eaef;
+}
+
+.dlg-btn-hyper {
+
+    height: 1.9rem;
+    /*padding-bottom: 0;*/
+}
+
+.dlg-div-detalhes {
+    font-size: small;
+    background-color: #dee2e6;
+    border-style: none;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+}
+
+.dlg-pad-top-5 {
+    /*padding-top: 15px;*/
+    padding-top: 0.5rem;
+}
+
+.dlg-pad-top-15 {
+    /*padding-top: 15px;*/
+    padding-top: 1rem;
+}
+
+.dlg-pad-top-20 {
+    /*padding-top: 30px;*/
+    padding-top: 2rem;
+}
+
+.dlg-pad-top-45 {
+    /*padding-top: 45px;*/
+    padding-top: 3rem;
+}
+
+.dlg-pad-top-60 {
+    /*padding-top: 60px;*/
+    padding-top: 4rem;
+}
+
+.dlg-pad-top-75 {
+    /*padding-top: 60px;*/
+    padding-top: 5rem;
+}
+
+.dlg-mobbt100, .dlg-mobbt50, .dlg-mobbt30, .dlg-mobbt {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    /*height: 100%;*/
+    /*width: calc(100% - 3rem - 1.5rem);*/
+}
+
+.dlg-mobbt100 {
+    width: 100%;
+}
+
+.dlg-mobbt50 {
+    width: 50%;
+}
+
+.dlg-mobbt30 {
+    width: 30%;
+}
+
+.dlg-alerta {
+    background-color: red;
+}
+
+.text-red {
+    color: #8b1014;
+}
+
+.text-green-escuro {
+    color: #0b2e13;
+}
+
+.dlg-margin-l {
+    margin-left: 5%;
+}
+
+.dlg-margin-r {
+    margin-right: 5%;
+}
+
+.dlg-hr {
+    border: 0;
+    border-top: 0.15rem solid rgba(0, 0, 0, 0.1);
+    margin: 0.25rem;
+}
+
+.dlg-div-green {
+    color: #0e1012;
+    background-color: #0f9d58;
+    padding-left: 4%;
+    /*margin-left: 5%;*/
+}
+
+.dlg-div-green-ret {
+    color: #0e1012;
+    background-color: #6da799;
+    padding-left: 0;
+    /*margin-left: 5%;*/
+}
+
+.dlg-margim-bt {
+    margin-top: 9px!important;
+    margin-bottom: 9px!important;
+}
+
+.dlg-padding-div {
+    margin-bottom: 14px!important;
+}
+
+.dlg-padding-lb {
+    padding-top: 0px!important;
+    padding-bottom: 3px!important;
+    font-size: 0.8rem!important;
+}
+
+.dlg-padding-ed {
+    padding-left: 5px!important;
+    padding-right: 3px!important;
+    height: calc(1.7rem + 2px)!important;
+}
+
+.table {
+    border-radius: 0.25rem;
+    border-style: hidden;
+}
+
+#wrapper {
+    width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ret_wrapper {
+    width: auto;
+    /*left: 20%;*/
+    top: 5rem;
+    position: relative;
+    padding-left: 20%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #wrapper {
+        width: auto;
+    }
+    #ret_wrapper {
+        width: auto;
+    }
+}
+
+.formLateral {
+    /* top, right, bottom, left */
+    background-color: #2E3C50;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    float: left;
+    position: fixed;
+    overflow: auto;
+    /*z-index: 8000;*/
+}
+
+.lateralItem {
+    color: white;
+    cursor: pointer;
+    transition: ease-in-out 0.4s;
+    width: 100%;
+    padding: 0.5rem;
+    display: inline-block;
+    position: relative;
+}
+
+.lateralItem:hover {
+    background-color: #398439;
+    color: white;
+}
+
+.lateralNav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.tab {
+    overflow: hidden;
+    /*border: 1px solid #ccc;*/
+    background-color: #f1f1f1;
+    /*border-bottom: 0.25rem solid #f1f1f1;*/
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    /*border-bottom: 0.25rem solid transparent;*/
+}
+
+.tab button:hover {
+    background-color: #ddd;
+    /*border-bottom: 0.25rem solid transparent;*/
+}
+
+.tab button.active {
+    /*background-color: #ccc;*/
+    /*border-bottom: 0.25rem solid #aaa;*/
+    background-color: white;
+    border-color: black;
+    border-bottom-color: transparent;
+}
+
+.tabContent {
+    display: none;
+    padding: 6px 12px;
+    /*border: 1px solid #ccc;*/
+    border-top: none;
+}
+
+#htmlDivCabec, #divCabec, #cabec\.titulo {
+    background-color: black;
+}
+
+#htmlDivRodape {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: darkgrey;
+    height: 2rem;
+}
+
+/*#htmlDivCabec {*/
+/*    top: 0;*/
+/*}*/
+
+#htmlDivRodape {
+    bottom: 0;
+}
+
+#htmlDivMenuLateral {
+    /*padding: 0 1rem 0 1rem; background: black; height: 2.5rem;*/
+    padding: 0 1rem 0 1rem; background: black;
+}
+
+#htmlDiv0 {
+    float: left;
+}
+
+#cabec\.lbErro {
+    padding: 0 1rem 0 1rem;
+}
