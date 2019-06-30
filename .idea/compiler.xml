@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="br.com.edu.escola01.main" target="1.8" />
+      <module name="br.com.edu.escola01.test" target="1.8" />
       <module name="escola01.main" target="1.8" />
       <module name="escola01.test" target="1.8" />
     </bytecodeTargetLevel>
